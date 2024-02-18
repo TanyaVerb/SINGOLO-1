@@ -1,0 +1,37 @@
+.services-wrapper {
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+}
+.title {
+  @include font($weight: 900, $size: 3rem, $lh: 3.6rem);
+  color: $black;
+}
+.services__title {
+  margin-bottom: 2rem;
+}
+.services__text {
+  @include font($weight: 400, $size: 1.6rem, $lh: 3rem);
+  margin-bottom: 4rem;
+}
+.services__list {
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 4.2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.services__card {
+  display: flex;
+  column-gap: 2rem;
+}
+.card__content {
+  display: flex;
+  gap: 1.2rem;
+  flex-direction: column;
+}
+.card__title {
+  @include font($weight: 900, $size: 1.8rem, $lh: 100%);
+}
+.card__text {
+  @include font($weight: 400, $size: 1.2rem, $lh: 183%);
+  text-align: justify;
+}
