@@ -1,0 +1,26 @@
+.footer-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: $green;
+  border-top: $stroke;
+}
+
+.footer__row {
+  @include flex();
+}
+.footer__copyright {
+  @include font(900, 1.3rem, 1.8);
+  text-align: left;
+}
+
+.footer__socials {
+  @include flex();
+  gap: 0.8rem;
+}
+.social-icon {
+  display: inline-block;
+}
+
+.social-icon img {
+  display: block;
+}
