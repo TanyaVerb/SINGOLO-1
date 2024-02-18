@@ -4,11 +4,6 @@ html {
   color: #5a5a7f;
 }
 
-// .container {
-//   max-width: 1020px;
-//   padding: 0 40px;
-// }
-
 .wrapper {
   overflow: hidden;
   display: flex;
@@ -20,7 +15,7 @@ html {
   flex: 1 1 auto;
 }
 [class*="container"] {
-  max-width: 1020px;
+  max-width: $maxWidth;
   margin: 0 auto;
 }
 .content-wrapper {

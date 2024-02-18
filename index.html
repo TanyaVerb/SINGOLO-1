@@ -14,7 +14,7 @@
           <nav class="header__menu menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a href="#" class="menu__link">HOME</a>
+                <a href="#homeAnchor" class="menu__link">HOME</a>
               </li>
               <li class="menu__item">
                 <a href="#" class="menu__link">SERVICES</a>
@@ -32,7 +32,69 @@
           </nav>
         </div>
       </header>
-      <main class="main">content</main>
+      <main class="main">
+        <section id="homeAnchor" class="home">
+          <div class="slider__container">
+            <div class="slider">
+              <div class="content-wrapper slider__nav">
+                <label for="s1" class="slider__nav-item">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20 26.56L11.3067 17.8667C10.28 16.84 10.28 15.16 11.3067 14.1333L20 5.44"
+                      stroke="#EDFF7E"
+                      stroke-width="4"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+                <label for="s2" class="slider__nav-item">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 32 32"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.88 26.56L20.5733 17.8667C21.6 16.84 21.6 15.16 20.5733 14.1333L11.88 5.44"
+                      stroke="#EDFF7E"
+                      stroke-width="4"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </label>
+              </div>
+
+              <div class="slider__item">
+                <input type="radio" name="s" id="s1" />
+                <input type="radio" name="s" id="s2" />
+
+                <div class="slide slider__slide-1 s1">
+                  <img class="img" src="assets/img/Slide-1.png" alt="slide-1" />
+                </div>
+
+                <div class="slide slider__slide-2">
+                  <img
+                    class="img"
+                    src="assets/img/Slider-2.png"
+                    alt="slide-2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
       <footer class="footer">footer</footer>
     </div>
   </body>
