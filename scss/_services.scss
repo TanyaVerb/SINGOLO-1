@@ -2,15 +2,11 @@
   padding-top: 6rem;
   padding-bottom: 3rem;
 }
-.title {
-  @include font($weight: 900, $size: 3rem, $lh: 3.6rem);
-  color: $black;
-}
+
 .services__title {
   margin-bottom: 2rem;
 }
 .services__text {
-  @include font($weight: 400, $size: 1.6rem, $lh: 3rem);
   margin-bottom: 4rem;
 }
 .services__list {
@@ -29,9 +25,9 @@
   flex-direction: column;
 }
 .card__title {
-  @include font($weight: 900, $size: 1.8rem, $lh: 100%);
+  @include font(900, 1.8rem);
 }
 .card__text {
-  @include font($weight: 400, $size: 1.2rem, $lh: 183%);
+  @include font(400, 1.2rem, 183%);
   text-align: justify;
 }

@@ -92,6 +92,19 @@ html {
   padding: 0 4rem;
 }
 
+.title {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  color: #000025;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -277,21 +290,11 @@ label:hover svg path {
   padding-bottom: 3rem;
 }
 
-.title {
-  font-weight: 900;
-  font-size: 3rem;
-  line-height: 3.6rem;
-  color: #000025;
-}
-
 .services__title {
   margin-bottom: 2rem;
 }
 
 .services__text {
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 3rem;
   margin-bottom: 4rem;
 }
 
@@ -327,7 +330,7 @@ label:hover svg path {
 .card__title {
   font-weight: 900;
   font-size: 1.8rem;
-  line-height: 100%;
+  line-height: 1;
 }
 
 .card__text {
@@ -335,4 +338,71 @@ label:hover svg path {
   font-size: 1.2rem;
   line-height: 183%;
   text-align: justify;
+}
+
+.portfolio-wrapper {
+  background-color: #edff7e;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.portfolio__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.portfolio__tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.portfolio__tag {
+  display: inline-block;
+  height: 2.8rem;
+  border: 1px solid #7067cf;
+  border-radius: 4px;
+  padding: 0.8rem;
+  color: #7067cf;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+}
+.portfolio__tag:hover {
+  background-color: #7067cf;
+  color: #fff;
+}
+.portfolio__tag:active {
+  background-color: #7067cf;
+  color: #fff;
+}
+
+.portfolio__items {
+  max-width: 1020px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.portfolio__text {
+  margin-bottom: 2rem;
+}
+
+.portfolio__item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
