@@ -54,3 +54,17 @@ label:hover svg path {
 #s2:checked ~ .s1 {
   margin-left: -50%;
 }
+
+// @media screen and (max-width: 375px) {
+//   label .svg {
+//     width: 16px;
+//     height: 16px;
+//   }
+//   .slider__nav {
+//     padding: 0 2rem;
+//   }
+//   .slider__nav .slider__nav-item {
+//     width: 1.6rem;
+//     height: 1.6rem;
+//   }
+// }
